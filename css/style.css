@@ -1,20 +1,34 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
 
-.navbar-nav {
-    margin-right: 5rem;
+.navbar-collapse {
+    width: 216px;
+    background-color: white;
 }
 
+/* .navbar-nav {
+    margin-right: 5rem;
+} */
+
+.navbar-toggler {
+    background-color: white !important;
+}
 
 #nav-top {
     /* position: -webkit-sticky !important; */
     /* top: 0 !important; */
 	position: fixed !important;
-    width: 100vw;
+    /* width: 100%; */
     z-index: 1000;
+    background: none !important;
 }
 
-.jumbo-pad {
+/* .jumbo-pad {
     padding-top: 56px !important;
-}
+} */
