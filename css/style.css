@@ -12,9 +12,23 @@
 
 .jumbotron img {
     height: 40rem;
+    object-fit: cover;
 }
 
-.container {
+.hero-name {
+    display: flex;
+    white-space: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.photo {
+    display: flex;
+    justify-content: end;
+}
+
+.jumbo-pad {
     display: flex;
     align-items: center;
     justify-content: center space-around;
