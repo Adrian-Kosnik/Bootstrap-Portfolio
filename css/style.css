@@ -1,7 +1,7 @@
-body {
+/* body {
     margin-left: 50px;
     margin-right: 50px;
-}
+} */
 
 .dropdown:hover>.dropdown-menu {
     display: block;
@@ -12,23 +12,28 @@ body {
     background-color: white;
 }
 
-/* .navbar-nav {
-    margin-right: 5rem;
-} */
-
 .navbar-toggler {
     background-color: white !important;
 }
 
 #nav-top {
-    /* position: -webkit-sticky !important; */
-    /* top: 0 !important; */
 	position: fixed !important;
-    /* width: 100%; */
     z-index: 1000;
     background: none !important;
 }
 
-/* .jumbo-pad {
-    padding-top: 56px !important;
-} */
+#aboutme {
+    display: grid;
+    
+}
+
+#work {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 0 1rem 0 1rem;
+}
+
