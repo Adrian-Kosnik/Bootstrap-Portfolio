@@ -101,13 +101,19 @@
 
 #footer {
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
+    border-top: 1px solid lightslategray;
 }
 
 .f-message {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.f-message h4 {
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
 }
 
 .f-links {
@@ -117,7 +123,7 @@
 }
 
 .f-links a {
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 0.5rem 1rem 4rem 1rem;
 }
 
 /* footer end */
