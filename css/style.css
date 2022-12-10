@@ -41,11 +41,6 @@
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
-#navbar {
-	/* position: fixed !important;
-    z-index: 1000;
-    background: none !important; */
-}
 
 /* navbar end */
 
@@ -66,10 +61,6 @@
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
-
-/* .skill-heading h2 {
-    display: inline;
-} */
 
 .skill-icon {
     height: 4rem;
