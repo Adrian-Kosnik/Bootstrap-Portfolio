@@ -9,98 +9,79 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-          <!-- navbar end -->
-    </header>
-
     <!-- jumbotron start -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <header class="jumbotron jumbotron-fluid">
+      <!-- navbar start -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#work">Horiseon</a>
+                <a class="dropdown-item" href="#work">Portfolio</a>
+                <a class="dropdown-item" href="#work">Pre-work Study Guide</a>
+              </div>
+            </li>
+          </ul>
         </div>
-    </div>
+      </nav>
+      <!-- navbar end -->
+      <div class="container jumbo-pad">
+        <div class="row hero-name">
+          <h1 class="col- display-4">Adrian Kosnik</h1>
+          <p class="col- lead">Web Developer who loves Dino Chicken Nuggets.</p>
+        </div>
+        <div class="row photo">
+          <img class="col-8" src="./images/adriankosnik-photo.JPG" alt="Portrait of Adrian Kosnik looking into the camera in a cheeky way.">
+        </div>
+      </div>
+    </header>
     <!-- jumbotron end -->
 
     <section id="work">
-        <!-- cards start -->
-        <div class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-4">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col mb-4">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col mb-4">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col mb-4">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            </div>
+      <!-- cards start -->
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/horiseon.png" class="card-img-top" alt="Pre-view of the Horiseon project.">
+          <div class="card-body">
+            <h5 class="card-title">Horiseon</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://adrian-kosnik.github.io/Bootcamp-Challenge-1/" target="_blank" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/portfolio-website.png" class="card-img-top" alt="Pre-view of the Portfolio Website project.">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://adrian-kosnik.github.io/Adrian-Kosnik-Portfolio/" target="_blank" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/pre-work-study-guide.png" class="card-img-top" alt="Pre-view of the Pre-work Study Guide project.">
+          <div class="card-body">
+            <h5 class="card-title">Pre-work Study Guide</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://adrian-kosnik.github.io/prework-study-guide/" target="_blank" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
       <!-- cards end -->
     </section>
-    <section id="skills">
+    <!-- <section id="skills">
         <ul class="list-group">
             <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
             <li class="list-group-item">A second item</li>
@@ -108,8 +89,15 @@
             <li class="list-group-item">A fourth item</li>
             <li class="list-group-item">And a fifth one</li>
         </ul>
-    </section>
+    </section> -->
     <section id="aboutme">
+        <ul class="list-group">
+          <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
         <div class="list-group">
             <a href="#" class="list-group-item list-group-item-action active">
               <div class="d-flex w-100 justify-content-between">
@@ -137,8 +125,13 @@
             </a>
         </div>
     </section>
-    <footer>
-        
+
+
+
+
+
+    <footer id="footer">
+
     </footer>
 
 

@@ -1,0 +1,75 @@
+/* header styling */
+
+/* jumbotron */
+
+.jumbotron {
+    padding-top: 0 !important;
+}
+
+.jumbotron h1 {
+    margin-top: 5rem;
+}
+
+.jumbotron img {
+    height: 40rem;
+    object-fit: cover;
+}
+
+.hero-name {
+    display: flex;
+    white-space: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.photo {
+    display: flex;
+    justify-content: end;
+}
+
+.jumbo-pad {
+    display: flex;
+    align-items: center;
+    justify-content: center space-around;
+    padding-top: 64px;
+}
+
+/* jumbotron end */
+
+/* navbar */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+#navbar {
+	/* position: fixed !important;
+    z-index: 1000;
+    background: none !important; */
+}
+
+/* navbar end */
+
+
+
+
+
+
+
+
+
+
+#aboutme {
+    display: grid;
+    
+}
+
+#work {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 0 1rem 0 1rem;
+}
+
