@@ -49,7 +49,37 @@
 
 /* navbar end */
 
+/* skills */
 
+.skill-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+/* .skill-heading h2 {
+    display: inline;
+} */
+
+.skill-icon {
+    height: 4rem;
+}
+
+.media {
+    margin: 1rem;
+}
+
+/* skills end */
 
 
 
