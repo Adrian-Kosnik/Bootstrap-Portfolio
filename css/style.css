@@ -44,6 +44,20 @@
 
 /* navbar end */
 
+/* cards */
+
+#work {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 0 1rem 0 1rem;
+}
+
+/* cards end */
+
 /* skills */
 
 .skill-heading {
@@ -72,21 +86,16 @@
 
 /* skills end */
 
-#aboutme {
-    display: grid;
-    
-}
+/* aboutme / contact */
 
-#work {
+#aboutme-contact {
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
-.card {
-    margin: 0 1rem 0 1rem;
-}
 
+/* aboutme / contact end */
 
 /* footer */
 
