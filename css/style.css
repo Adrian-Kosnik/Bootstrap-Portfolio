@@ -44,6 +44,20 @@
 
 /* navbar end */
 
+/* cards */
+
+#work {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 0 1rem 0 1rem;
+}
+
+/* cards end */
+
 /* skills */
 
 .skill-heading {
@@ -72,25 +86,39 @@
 
 /* skills end */
 
+/* aboutme / contact */
 
-
-
-
-
-
-
-#aboutme {
-    display: grid;
-    
-}
-
-#work {
+#aboutme-contact {
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
-.card {
-    margin: 0 1rem 0 1rem;
+
+/* aboutme / contact end */
+
+/* footer */
+
+#footer {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
+
+.f-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-links a {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+/* footer end */
 
