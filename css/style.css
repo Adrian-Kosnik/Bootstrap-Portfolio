@@ -99,6 +99,17 @@
     margin: 1rem;
 }
 
+.js-icon {
+    height: 64px;
+    width: 64px;
+    background-image: url("/images/javascript-icon-B&W.png");
+    background-size: contain;
+}
+
+.js-icon:hover {
+    background-image: url("/images/javascript-icon.png");
+}
+
 /* skills end */
 
 /* aboutme / contact */
