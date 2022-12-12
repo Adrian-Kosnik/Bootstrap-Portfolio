@@ -11,8 +11,9 @@
 }
 
 .jumbotron img {
-    height: 40rem;
+    /* height: 40rem; */
     object-fit: cover;
+    box-shadow: 10px 10px 40px 10px #888888;
 }
 
 .hero-name {
@@ -35,11 +36,19 @@
     padding-top: 64px;
 }
 
+.hero-photo {
+    
+}
+
 /* jumbotron end */
 
 /* navbar */
 .dropdown:hover>.dropdown-menu {
     display: block;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 /* navbar end */
@@ -54,6 +63,12 @@
 
 .card {
     margin: 0 1rem 0 1rem;
+}
+
+.card a {
+    box-shadow: 2px 2px 2px 2px #888888;
+    background-color: #888888;
+    border: #888888;
 }
 
 /* cards end */
@@ -124,7 +139,15 @@
 
 .f-links a {
     margin: 0.5rem 1rem 4rem 1rem;
+    box-shadow: 2px 2px 2px 2px #888888;
+    background-color: #888888;
+    border: #888888;
 }
 
 /* footer end */
 
+#work a:hover, #footer a:hover {
+    box-shadow: 10px 10px 40px 10px #888888;
+    background-color: #888888;
+    border: #888888;
+}
