@@ -71,6 +71,10 @@
     border: #888888;
 }
 
+.card-body {
+    text-align: center;
+}
+
 /* cards end */
 
 /* skills */
@@ -148,6 +152,11 @@
 
 #work a:hover, #footer a:hover {
     box-shadow: 10px 10px 40px 10px #888888;
-    background-color: #888888;
-    border: #888888;
+    /* background-color: #888888;
+    border: #888888; */
+}
+
+h4 a {
+    box-shadow: 0 0 0 0 !important;
+    text-decoration: none !important;
 }
