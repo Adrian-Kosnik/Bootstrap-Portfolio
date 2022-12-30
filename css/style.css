@@ -43,8 +43,9 @@
 /* jumbotron end */
 
 /* navbar */
-.dropdown:hover>.dropdown-menu {
-    display: block;
+
+.navbar-nav {
+    margin-left: auto;
 }
 
 .nav-link:hover {
@@ -111,6 +112,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.list-group a {
+    color: #000;
+    background-color: none !important;
+    background: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.list-group a:hover {
+    text-decoration: underline !important;
 }
 
 
