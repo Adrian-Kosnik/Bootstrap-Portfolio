@@ -80,7 +80,9 @@
 
 #about-section {
     /* border: 1px solid lime; */
-    height: 100vh;
+    /* height: 100vh; */
+    margin-top: 25vh;
+    margin-bottom: 25vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -113,7 +115,7 @@
 }
 
 #about-text ul {
-    columns: 2;
+    columns: 3;
 }
 
 #about-img {
@@ -134,8 +136,34 @@
 #work {
     display: flex;
     justify-content: center;
-
+    margin-bottom: 25vh;
+    /* border: 1px solid lime; */
 }
+
+#inner-work {
+    width: 60%;
+}
+
+.carousel {
+    height: 40rem;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 40rem;
+    width: 100%;
+}
+
+.carousel-inner {
+    /* background-color: #000; */
+}
+
+.carousel-img {
+    height: 40rem;
+    width: 100%;
+}
+
+
 
 .card {
     margin: 0 1rem 0 1rem;
