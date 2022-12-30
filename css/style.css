@@ -30,10 +30,32 @@
 }
 
 .jumbo-pad {
+    height: 87vh;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* padding-top: 64px; */
+    /* border: 1px solid lightgreen; */
     display: flex;
+    /* justify-content: center; */
     align-items: center;
-    justify-content: center space-around;
-    padding-top: 64px;
+}
+
+#welcome-content h1 {
+    font-size: 16px;
+}
+
+#welcome-content h2 {
+    font-size: 80px;
+}
+
+#welcome-content h3 {
+    font-size: 80px;
+}
+
+#welcome-content p {
+    padding-top: 0.8rem;
+    font-size: 20px;
+    max-width: 60%;
 }
 
 .hero-photo {
