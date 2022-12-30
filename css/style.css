@@ -1,3 +1,7 @@
+* {
+    /* border: 1px solid limegreen; */
+}
+
 /* header styling */
 
 /* jumbotron */
@@ -29,7 +33,7 @@
     justify-content: end;
 }
 
-.jumbo-pad {
+header .jumbo-pad {
     height: 87vh;
     /* margin: 0 auto; */
     /* text-align: center; */
@@ -209,28 +213,54 @@
 
 /* skills end */
 
-/* aboutme / contact */
+/* contact */
 
-#aboutme-contact {
+#contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.list-group a {
-    color: #000;
-    background-color: none !important;
-    background: none !important;
-    text-decoration: none !important;
-    box-shadow: none !important;
+#inner-contact .jumbo-pad {
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
 }
 
-.list-group a:hover {
-    text-decoration: underline !important;
+#contact-content a {
+    color: black;
+    text-decoration: none;
 }
 
+#contact-content ul {
+    list-style-type: none;
+    list-style-position: inside;
+    columns: 3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
-/* aboutme / contact end */
+#contact-content h1 {
+    font-size: 16px;
+}
+
+#contact-content h2 {
+    font-size: 80px;
+}
+
+#contact-content h3 {
+    font-size: 80px;
+}
+
+#contact-content p {
+    padding-top: 0.8rem;
+    font-size: 20px;
+}
+
+/* contact end */
 
 /* footer */
 
