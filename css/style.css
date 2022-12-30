@@ -8,6 +8,7 @@
 
 .jumbotron {
     padding-top: 0 !important;
+    background-color: #fff !important;
 }
 
 .jumbotron h1 {
@@ -74,9 +75,9 @@ header .jumbo-pad {
     margin-left: auto;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     text-decoration: underline;
-}
+} */
 
 /* navbar end */
 
@@ -85,7 +86,7 @@ header .jumbo-pad {
 #about-section {
     /* border: 1px solid lime; */
     /* height: 100vh; */
-    margin-top: 25vh;
+    /* margin-top: 5vh; */
     margin-bottom: 25vh;
     width: 100vw;
     display: flex;
@@ -222,9 +223,10 @@ header .jumbo-pad {
 }
 
 #inner-contact .jumbo-pad {
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    /* margin-top: 25vh; */
+    margin-bottom: 20vh;
     text-align: center;
+    width: 100%;
     /* display: flex;
     align-items: center; */
 }
@@ -237,14 +239,14 @@ header .jumbo-pad {
 #contact-content ul {
     list-style-type: none;
     list-style-position: inside;
-    columns: 3;
+    columns: 1;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 #contact-content h1 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #contact-content h2 {
@@ -255,9 +257,11 @@ header .jumbo-pad {
     font-size: 80px;
 }
 
-#contact-content p {
-    padding-top: 0.8rem;
-    font-size: 20px;
+.p-contact p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
 }
 
 /* contact end */
@@ -266,8 +270,9 @@ header .jumbo-pad {
 
 #footer {
     margin-top: 4rem;
+    margin-bottom: 2rem;
     /* margin-bottom: 4rem; */
-    border-top: 1px solid lightslategray;
+    /* border-top: 1px solid lightslategray; */
 }
 
 .f-message {
@@ -277,32 +282,21 @@ header .jumbo-pad {
 }
 
 .f-message h4 {
-    padding-top: 4rem;
-    padding-bottom: 0.5rem;
+    font-size: 16px;
 }
 
 .f-links {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.f-links a {
-    margin: 0.5rem 1rem 4rem 1rem;
-    box-shadow: 2px 2px 2px 2px #888888;
-    background-color: #888888;
-    border: #888888;
+.f-links ul {
+    list-style-type: none;
+    list-style-position: inside;
+    columns: 2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 /* footer end */
-
-#work a:hover, #footer a:hover {
-    box-shadow: 10px 10px 40px 10px #888888;
-    /* background-color: #888888;
-    border: #888888; */
-}
-
-h4 a {
-    box-shadow: 0 0 0 0 !important;
-    text-decoration: none !important;
-}
